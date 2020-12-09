@@ -16,6 +16,9 @@ public class GameStartWindow {
     JButton begin;
     JLabel name;
 
+    //
+    GswHandler gswHandler = new GswHandler(this);
+
     public GameStartWindow(){
         //创建窗口并给出标题名字
         gsw = new JFrame("贪吃蛇");
@@ -52,6 +55,9 @@ public class GameStartWindow {
         container.add(name,BorderLayout.NORTH);
         container.add(jPanel);
 
+        //
+        begin.addMouseListener(gswHandler);
+
         //界面布局
         SpringLayout.Constraints nameC = springLayout.getConstraints(begin);
         nameC.setX(Spring.constant((wWidth-bWidth)/2-15));
@@ -66,5 +72,8 @@ public class GameStartWindow {
 
     public static void main(String[] args) {
         new GameStartWindow();
+    }
+    public void logindipose(){
+        gsw.dispose();
     }
 }
