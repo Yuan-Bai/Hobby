@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.java.dev.jna:jna-platform:TEMPLATE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/TEMPLATE/jna-platform-TEMPLATE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/TEMPLATE/jna-platform-TEMPLATE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/TEMPLATE/jna-platform-TEMPLATE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
